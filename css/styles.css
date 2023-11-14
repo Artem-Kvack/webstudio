@@ -45,10 +45,9 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-  .container {
-    margin: 0 auto;
-    padding: 0 15px;
-  }
+.header .container {
+  display: flex;
+  align-items: center;}
 .nav-list {
   display: flex;
   gap: 50px;
@@ -148,12 +147,7 @@ letter-spacing: 0.42px;
  
 }
 
-.work-item-img {
-  width: 370px;
- height: 294px;
 
-justify-content: center;
-}
 
 .work {
   padding-top: 200px;
@@ -202,12 +196,7 @@ letter-spacing: 0.48px;
   display: flex;
   justify-content: center;
 }
-.worker-foto {
-  width: 270px;
-  height: 260px;
-  gap: 30px;
-  flex-shrink: 0;
-}
+
 .workers-title {
   color: #212121;
 

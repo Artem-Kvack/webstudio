@@ -130,7 +130,7 @@ letter-spacing: 0.96px;
      gap: 30px;
 }
 .advantages-item-title {
- 
+   padding-bottom: 1556px;
   
   color: #212121;
   text-transform: capitalize;
@@ -147,6 +147,9 @@ font-size: 14px;
 padding-top: 200px;
 padding-bottom: 200px;
 letter-spacing: 0.42px;
+}
+.work-title {
+  padding-bottom: 1338px;
 }
 .work-list {
   display: flex;
@@ -206,7 +209,7 @@ letter-spacing: 0.48px;
 }
 .workers-title {
   color: #212121;
-
+  padding-bottom: 512px;
 text-align: center;
 font-family: Roboto;
 font-size: 36px;

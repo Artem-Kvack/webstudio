@@ -55,7 +55,7 @@ img {
   margin-right: 93px;
   display: flex;
   gap: 50px;
-  justify-content: first  baseline;
+
 }
 
 .nav-list-item {
@@ -101,7 +101,7 @@ letter-spacing: 0.28px;
   padding-bottom: 200px;
 }
 .hero {
- 
+ margin-bottom: 30px;
  
   color: white;
   text-align: center;
@@ -113,6 +113,8 @@ text-transform: uppercase;
 }
 .hero-btn {
    display: block;
+   width: 216px;
+   height: 50px;
     margin: 0 auto;
   color: white;
  background-color: #2196F3;
@@ -130,7 +132,7 @@ letter-spacing: 0.96px;
      gap: 30px;
 }
 .advantages-item-title {
-   padding-bottom: 1556px;
+   padding-bottom: 15px;
   
   color: #212121;
   text-transform: capitalize;
@@ -149,7 +151,7 @@ padding-bottom: 200px;
 letter-spacing: 0.42px;
 }
 .work-title {
-  padding-bottom: 1338px;
+  padding-bottom: 15px;
 }
 .work-list {
   display: flex;
@@ -171,14 +173,14 @@ letter-spacing: 0.42px;
   letter-spacing: 1.08px;
 }
 .workers {
-  gap: 30px;
-  padding-top: 200px;
-padding-bottom: 200px;
+
+  padding-top: 94px;
+padding-bottom: 94px;
   text-align: center;
 font-family: Roboto;
 font-size: 16px;
 
-justify-content: space-between;
+
 letter-spacing: 0.48px;
 }
 
@@ -209,7 +211,7 @@ letter-spacing: 0.48px;
 }
 .workers-title {
   color: #212121;
-  padding-bottom: 512px;
+  padding-bottom: 15px;
 text-align: center;
 font-family: Roboto;
 font-size: 36px;
@@ -221,6 +223,8 @@ letter-spacing: 1.08px;
 }
 .footer{
   background-color: #212121;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .container {
   margin: 0 auto;

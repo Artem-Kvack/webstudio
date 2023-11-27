@@ -31,13 +31,11 @@ font-weight: 500;
 line-height: normal;
 letter-spacing: 0.28px;
 }
-.market {
+.filter-list {
     display: flex;
-}
-.list {
-  display: flexbox;
     gap: 30px;
 }
+
 .list-btn {
     color: #212121;
 
@@ -51,7 +49,7 @@ line-height: 26px; /* 162.5% */
 letter-spacing: 0.48px;
 }
 .market-list {
-    display: flex;
+    display: flexbox;
     gap: 30px;
 }
 .market-title {

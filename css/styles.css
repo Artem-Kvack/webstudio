@@ -102,7 +102,7 @@ letter-spacing: 0.28px;
 }
 .hero {
  margin-bottom: 30px;
- 
+ background-image: url(./images/ImgOverlay.png);
   color: white;
   text-align: center;
 font-family: Roboto;

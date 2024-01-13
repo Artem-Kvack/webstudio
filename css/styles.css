@@ -188,7 +188,46 @@ font-size: 16px;
 
 letter-spacing: 0.48px;
 }
-
+.advantages-list-item:nth-child(1)::before {
+  content: "";
+  display: block;
+  margin-bottom: 55px;
+  width: 70px;
+  height: 70px;
+  background-image: url("../images/Vector.png");
+  margin-left: 100px;
+}
+.advantages-list-item:nth-child(2)::before {
+  content: "";
+  display: block;
+  margin-bottom: 55px;
+  width: 70px;
+  height: 70px;
+  background-image: url("../images/clock.png");
+  margin-left: 90px;
+}
+.advantages-list-item:nth-child(3)::before {
+  content: "";
+  display: block;
+  margin-bottom: 55px;
+  width: 70px;
+  height: 70px;
+  background-image: url("../images/diagram.png");
+  margin-left: 90px;
+}
+.advantages-list-item:nth-child(4)::before {
+  content: "";
+  display: block;
+  margin-bottom: 55px;
+  width: 70px;
+  height: 70px;
+  background-image: url("../images/astronaut.png");
+  margin-left: 90px;
+  
+}
+.advantages-list-item {
+  background-color: #F5F4FA;
+}
 .advantages-list-title {
  color: #212121;
  text-transform: lowercase;
@@ -324,4 +363,12 @@ letter-spacing: 0.48px;
 }
 .footer-logo {
   margin-bottom: 20px;
+}
+.svg-logo-link {
+      display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
 }

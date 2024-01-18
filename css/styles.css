@@ -145,9 +145,7 @@ font-size: 14px;
 letter-spacing: 0.42px;
 text-transform: uppercase;
 }
-.advantages-item-title:nth-child(1)::before {
-    background-image: url(./images/Vector.png);
-}
+
 .advantages-list-text {
   font-family: Roboto;
 font-size: 14px;
@@ -224,6 +222,9 @@ letter-spacing: 0.48px;
   background-image: url("../images/astronaut.png");
   margin-left: 90px;
   
+}
+.hero-section {
+  background-image: url("../images/Img.png");
 }
 .advantages-list-item {
   background-color: #F5F4FA;

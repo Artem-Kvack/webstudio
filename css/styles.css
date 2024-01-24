@@ -61,11 +61,7 @@ img {
 
 }
 
-.nav-list-item {
- 
-  margin-top: 32px;
-  margin-bottom: 32px;
-}
+
 .header-list {
   margin-left: auto;
   display: flex;
@@ -194,7 +190,7 @@ letter-spacing: 0.48px;
   content: "";
   display: block;
   margin: 0 auto;
-  margin-bottom: 55px;
+  margin-bottom: 30px;
   width: 270px;
   height: 120px;
   background-image: url("../images/antenna.svg");
@@ -204,7 +200,7 @@ letter-spacing: 0.48px;
   content: "";
   display: block;
   margin: 0 auto;
-  margin-bottom: 55px;
+  margin-bottom: 30px;
   width: 270px;
   height: 120px;
   background-image: url("../images/clock.svg");
@@ -215,7 +211,7 @@ background-repeat: no-repeat;
   content: "";
   display: block;
   margin: 0 auto;
-  margin-bottom: 55px;
+  margin-bottom: 30px;
   width: 270px;
   height: 120px;
   background-image: url("../images/diagram.svg");
@@ -225,7 +221,7 @@ background-repeat: no-repeat;
   content: "";
   display: block;
   margin: 0 auto;
-  margin-bottom: 55px;
+  margin-bottom: 30px;
   width: 270px;
   height: 120px;
   background-image: url("../images/astronaut.svg");
@@ -341,19 +337,16 @@ font-weight: 500;
 line-height: 26px; /* 162.5% */
 letter-spacing: 0.48px;
 }
+.market {
+  padding-top: 94px;
+  padding-bottom:   94px ;
+}
 .market-list {
   display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
-.market-container {
-  display: flex;
-  width: 1600px;
-  flex-direction: column;
- 
-  align-items: center;
-  gap: 94px;
-}
+
 .market-title {
   color: #212121;
 

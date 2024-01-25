@@ -230,7 +230,16 @@ background-repeat: no-repeat;
   
 }
 .hero-section {
-  background-image: url("../images/Img.png");
+  background-image: url("../images/bg_img.jpg");
+    outline: 1px solid black;
+    background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+        background-image: linear-gradient(to right,
+              rgba(255, 0, 0, 0.2),
+              rgba(0, 255, 0, 0.2));
+                margin-left: auto;
+                  margin-right: auto;
 }
 
 

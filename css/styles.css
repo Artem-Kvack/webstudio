@@ -230,16 +230,15 @@ background-repeat: no-repeat;
   
 }
 .hero-section {
-  background-image: url("../images/ImgOverlay.jpg "), url("../images/bg_img.jpg");
+ 
     outline: 1px solid black;
     background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
-        background-image: linear-gradient(to right,
-              rgba(255, 0, 0, 0.2),
-              rgba(0, 255, 0, 0.2));
-                margin-left: auto;
-                  margin-right: auto;
+      background-image:
+          linear-gradient(to right,
+            rgba(255, 0, 0, 0.2),
+            rgba(0, 255, 0, 0.2)), url("../images/bg_hero_img.jpg")
 }
 
 
@@ -273,6 +272,9 @@ letter-spacing: 0.48px;
 .worker-list {
   display: flex;
   gap: 30px;
+}
+.worker-box-info {
+  padding: 30px 0;
 }
 .worker-list-item {
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
@@ -353,14 +355,14 @@ line-height: 26px; /* 162.5% */
 letter-spacing: 0.48px;
 }
 .market {
-  padding-top: 94px;
-  padding-bottom:   94px ;
+  padding-top: 50px;
+  padding-bottom:   50px ;
 }
 .market-list {
   display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    margin-top: 94px;
+    margin-top: 50px;
 }
 
 .market-title {

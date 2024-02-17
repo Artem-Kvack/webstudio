@@ -93,6 +93,10 @@ letter-spacing: 0.28px;
   letter-spacing: 0.28px;
   text-decoration: none;
 }
+.logo-icon {
+  color: #FFFFFF;
+}
+
 .hero-section {
   background-color: #212121;
   padding-top: 200px;
@@ -157,7 +161,10 @@ letter-spacing: 0.42px;
  gap: 30px;
  
 }
-
+.logo-icon {
+     width: 60px;
+     height: 60px;
+}
 
 
 .work {

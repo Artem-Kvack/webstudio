@@ -72,6 +72,25 @@ img {
   margin-top: 32px;
   margin-bottom: 32px;
 }
+.header-logo-link:hover {
+  
+  
+  color: #2196F3;
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}
+
+.contact-link:hover .header-logo-icon,
+
+.contact-link:focus .header-logo-icon {
+  fill: var(--accent-color);
+}
+.header-logo-icon {
+  margin-top: 27px;
+  margin-left: 55px;
+}
 .logo{
   font-family: Raleway;
 font-size: 26px;
@@ -161,10 +180,6 @@ letter-spacing: 0.42px;
  gap: 30px;
  
 }
-.logo-icon {
-     width: 60px;
-     height: 60px;
-}
 
 
 .work {
@@ -188,10 +203,43 @@ font-size: 16px;
 
 letter-spacing: 0.48px;
 }
+.worker-box-info {
+  width: 270px;
+  
+}
+.clients-logo-title {
+  margin-left: 500px;
+  margin-bottom: 20px;
+}
+.clients-logo-item {
+  width:170px ;
+  height: 92px;
+ border-radius: 4px;
+ border-color: #757575;
+ border-width: 3px;
+ border-style: solid;
+ 
+ 
+}
+.clients-logo-item:hover  {
+
+  border-color: #2196F3;
+  color: #2196F3;
+}
+.clients-logo-item:hover .icon-client-logo {
+ fill: #2196F3;
+
+}
+.clients-logo-link {
+  padding: 20px 30px;
+}
 .advantages-list-item::before {
   background-color: #F5F4FA;
   background-position: center;
   border-radius: 4px;
+}
+.worker-soc-icon:hover {
+ fill: #2196F3;
 }
 .advantages-list-item:nth-child(1)::before {
   content: "";
@@ -279,6 +327,10 @@ letter-spacing: 0.48px;
   display: flex;
   gap: 30px;
 }
+.worker-soc-list {
+  gap: 14px;
+  margin-top: 16px;
+}
 .worker-box-info {
   padding: 30px 0;
 }
@@ -307,8 +359,32 @@ letter-spacing: 1.08px;
   padding: 0 15px;
 width: 1200px;
 }
-
-
+.svg-address-title {
+  color: #FFF;
+  
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-left: 516px;
+}
+.icon-soc-logo {
+  fill: #FFF;
+}
+.svg-address-list {
+  gap: 34px;
+}
+.svg-address-item {
+    width: 170px;
+      height: 92px;
+      border-radius: 4px;
+      border-color: black;
+      border-width: 3px;
+    
+}
 
 .logo {
   color: #2196F3;

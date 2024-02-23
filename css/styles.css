@@ -208,19 +208,10 @@ letter-spacing: 0.48px;
   
 }
 .clients-logo-title {
-  margin-left: 500px;
+text-align: center;
   margin-bottom: 20px;
 }
-.clients-logo-item {
-  width:170px ;
-  height: 92px;
- border-radius: 4px;
- border-color: #757575;
- border-width: 3px;
- border-style: solid;
- 
- 
-}
+
 .clients-logo-item:hover  {
 
   border-color: #2196F3;
@@ -231,16 +222,41 @@ letter-spacing: 0.48px;
 
 }
 .clients-logo-link {
-  padding: 20px 30px;
+  padding: 16px 32px;
+   
+      border-radius: 1px;
+      border-color: #757575;
+      border-width: 3px;
+      border-style: solid;
+      display: block;
 }
 .advantages-list-item::before {
   background-color: #F5F4FA;
   background-position: center;
   border-radius: 4px;
+  
+}
+.worker-soc-icon {
+  fill: #757575;
+}
+.worker-soc-link:hover,
+.worker-soc-link:focus {
+  background-color: var(--accent-color);
+}
+
+.worker-soc-link:hover .worker-soc-icon,
+.worker-soc-link:focus .worker-soc-icon {
+  fill: white;
 }
 .worker-soc-icon:hover {
  fill: #2196F3;
 }
+.worker-soc-link {
+  display: flex;
+    padding: 12px;
+    border-radius: 50%;
+}
+
 .advantages-list-item:nth-child(1)::before {
   content: "";
   display: block;
@@ -292,7 +308,7 @@ background-repeat: no-repeat;
       background-size: cover;
       background-image:
           linear-gradient(to right,
-           rgba(47, 48, 58, 0.4)), url("../images/bg_hero_img.jpg")
+           rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)) , url("../images/bg_hero_img.jpg")
 }
 
 
@@ -385,6 +401,19 @@ width: 1200px;
       border-width: 3px;
     
 }
+.icon-client-logo {
+  fill: #757575;
+}
+ .footer-logo .logo-acent {
+   color: var(--accent-color);
+ }
+
+ .footer-logo {
+   color: white;
+ }
+ .footer-address {
+  flex-direction: column;
+ }
 
 .logo {
   color: #2196F3;

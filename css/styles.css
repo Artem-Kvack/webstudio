@@ -60,7 +60,10 @@ img {
   gap: 50px;
 
 }
-
+ .nav-link {
+  display: block;
+  padding: 32px 0;
+ }
 
 .header-list {
   margin-left: auto;
@@ -77,6 +80,10 @@ img {
   
   color: #2196F3;
 }
+.contact-link {
+  display: flex;
+  gap: 30px;
+}
 .contact-link:hover,
 .contact-link:focus {
   color: var(--accent-color);
@@ -87,10 +94,7 @@ img {
 .contact-link:focus .header-logo-icon {
   fill: var(--accent-color);
 }
-.header-logo-icon {
-  margin-top: 27px;
-  margin-left: 55px;
-}
+
 .logo{
   font-family: Raleway;
 font-size: 26px;
@@ -226,7 +230,7 @@ text-align: center;
    
       border-radius: 1px;
       border-color: #757575;
-      border-width: 3px;
+      border-width: 1px;
       border-style: solid;
       display: block;
 }
@@ -243,7 +247,10 @@ text-align: center;
 .worker-soc-link:focus {
   background-color: var(--accent-color);
 }
-
+.worker-soc-list {
+  display: flex;
+  gap: 10px;
+}
 .worker-soc-link:hover .worker-soc-icon,
 .worker-soc-link:focus .worker-soc-icon {
   fill: white;
@@ -401,6 +408,10 @@ width: 1200px;
       border-width: 3px;
     
 }
+.client-list {
+  display: flex;
+  gap: 30px;
+}
 .icon-client-logo {
   fill: #757575;
 }
@@ -414,7 +425,9 @@ width: 1200px;
  .footer-address {
   flex-direction: column;
  }
-
+    .footer-logo {
+      color: white;
+    }
 .logo {
   color: #2196F3;
 
@@ -447,11 +460,7 @@ font-weight: 500;
 line-height: normal;
 letter-spacing: 0.28px;
 }
-.list {
-  display: flex;
-  gap: 30px;
-  justify-content: center;
-}
+
 
 .list-btn {
   color: #212121;

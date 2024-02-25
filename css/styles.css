@@ -82,7 +82,8 @@ img {
 }
 .contact-link {
   display: flex;
-  gap: 30px;
+  gap: 10px;
+  align-items: center;
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -216,12 +217,13 @@ text-align: center;
   margin-bottom: 20px;
 }
 
-.clients-logo-item:hover  {
+.clients-logo-link:hover,
+.clients-logo-link:focus  {
 
   border-color: #2196F3;
-  color: #2196F3;
+ 
 }
-.clients-logo-item:hover .icon-client-logo {
+.clients-logo-link:hover .icon-client-logo, .clients-logo-link:focus .icon-client-logo {
  fill: #2196F3;
 
 }
@@ -248,7 +250,7 @@ text-align: center;
   background-color: var(--accent-color);
 }
 .worker-soc-list {
-  display: flex;
+  justify-content: center;
   gap: 10px;
 }
 .worker-soc-link:hover .worker-soc-icon,
@@ -347,8 +349,8 @@ line-height: normal;
 letter-spacing: 0.48px;
 }
 .worker-list {
-  display: flex;
-  gap: 30px;
+  justify-content: center;
+  gap: 10px;
 }
 .worker-soc-list {
   gap: 14px;
@@ -408,6 +410,9 @@ width: 1200px;
       border-width: 3px;
     
 }
+.clients {
+  background-color: #2F303A;
+}
 .client-list {
   display: flex;
   gap: 30px;
@@ -423,10 +428,15 @@ width: 1200px;
    color: white;
  }
  .footer-address {
+  display: flex;
   flex-direction: column;
  }
     .footer-logo {
       color: white;
+    }
+    .footer-soc-link {
+      padding: 12px;
+      color: rgba(255, 255, 255, 0.1);
     }
 .logo {
   color: #2196F3;

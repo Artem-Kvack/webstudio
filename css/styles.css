@@ -178,6 +178,7 @@ letter-spacing: 0.42px;
 }
 .work-title {
   margin-bottom: 50px;
+
 }
 .work-list {
   display: flex;
@@ -185,8 +186,29 @@ letter-spacing: 0.42px;
  gap: 30px;
  
 }
-
-
+.work-list-item {
+  position: relative;
+  
+}
+.work-item-text {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+ 
+  width: 156px;
+  height: 16px;
+  color: #FFF;
+  
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    
+}
 .work {
   padding-top: 94px;
   padding-bottom: 94px;

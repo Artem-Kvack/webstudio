@@ -195,8 +195,8 @@ letter-spacing: 0.42px;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
  
-  width: 156px;
-  height: 16px;
+  width: 100%;
+  padding: 27px;
   color: #FFF;
   
     text-align: center;
@@ -220,7 +220,7 @@ letter-spacing: 0.42px;
   letter-spacing: 1.08px;
 }
 .workers {
-
+background-color: #AFB1B8;
   padding-top: 94px;
 padding-bottom: 94px;
   text-align: center;
@@ -420,8 +420,8 @@ width: 1200px;
     text-transform: uppercase;
     margin-left: 516px;
 }
-.icon-soc-logo {
-  fill: #FFF;
+.footer-soc-icon{
+  fill: white;
 }
 .svg-address-list {
   gap: 34px;
@@ -435,7 +435,7 @@ width: 1200px;
     
 }
 .clients {
-  background-color:#AFB1B8;
+  
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -464,6 +464,7 @@ width: 1200px;
       padding: 12px;
       background-color: rgba(255, 255, 255, 0.1);
       display: block;
+      border-radius: 50%;
     }
 .logo {
   color: #2196F3;

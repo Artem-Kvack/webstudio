@@ -353,7 +353,18 @@ background-repeat: no-repeat;
    background-color: rgba(0, 0, 0, 0.5);
    opacity: 1;
  }
-
+.modal-text {
+ 
+  color: #212121;
+  
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
 
  .backdrop.is-hidden {
    opacity: 0;
@@ -363,7 +374,14 @@ background-repeat: no-repeat;
  .no-scroll {
    overflow: hidden;
  }
-
+.modal-cross-svg {
+  margin-left: 480px;
+  margin-bottom: 700px;
+  
+}
+.modal-svg-link:hover .modal-svg-link:focus {
+  fill: #2196F3;
+}
  .modal {
    position: absolute;
    top: 50%;
@@ -371,8 +389,10 @@ background-repeat: no-repeat;
    min-width: 400px;
    min-height: 300px;
    padding: 15px;
-   background-color: skyblue;
+   background-color:#FFF;
    transform: translate(-50%, -50%);
+   width: 528px;
+   height: 581px;
  }
 .advantages-list-title {
  color: #212121;

@@ -375,12 +375,78 @@ background-repeat: no-repeat;
    overflow: hidden;
  }
 .modal-cross-svg {
-  margin-left: 480px;
-  margin-bottom: 700px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
   
 }
-.modal-svg-link:hover .modal-svg-link:focus {
+.modal-input {
+  width: 100%;
+  border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
+    height: 40px;
+}
+
+.modal-svg-link:hover  {
   fill: #2196F3;
+}
+.modal-button {
+  margin-left: 165px;
+  border-radius: 4px;
+    background: #188CE8;
+  
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    width: 200px;
+    height: 50px;
+    color: #FFF;
+    
+      text-align: center;
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 30px;
+      /* 187.5% */
+      letter-spacing: 0.96px;
+}
+.modal-name {
+  color: #757575;
+  
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+    margin-bottom: 4px;
+}
+.modal-link1 {
+  position: absolute;
+ top: 70px;
+ left: 25px;
+}
+.modal-link2 {
+  position: absolute;
+  top: 125px;
+  left: 25px;
+}
+.modal-link3 {
+  position: absolute;
+  top: 185px;
+  left: 25px;
+}
+.modal-name-svg:hover 
+{
+          
+             fill: #2196F3;
+}
+.name-modal:hover {
+  border-color: #2196F3;
+}
+.modal-name-svg {
+    top: 104px;
+      left: 1px;
+    
 }
  .modal {
    position: absolute;
@@ -500,7 +566,17 @@ width: 1200px;
  .footer-logo .logo-acent {
    color: var(--accent-color);
  }
-
+.footer-soc-links__title {
+  color: #FFF;
+  
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
  .svg-address-list {
   display: flex
  }
@@ -516,6 +592,51 @@ width: 1200px;
       background-color: rgba(255, 255, 255, 0.1);
       display: flex;
       border-radius: 50%;
+    }
+    .footer-input-title {
+      color: #FFF;
+      
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.42px;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+    .footer-input {
+      width: 358px;
+        height: 50px;
+      border-radius: 4px;
+        border: 1px solid rgba(255, 255, 255, 0.30);
+      
+        background: rgba(33, 150, 243, 0.00);
+      
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+    }
+    .footer-input-btn {
+      width: 200px;
+        height: 50px;
+        color: #FFF;
+        border-radius: 4px;
+          background: #2196F3;
+        
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+          text-align: center;
+          font-family: Roboto;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 30px;
+          /* 187.5% */
+          letter-spacing: 0.96px;
+    }
+    .footer-input-svg {
+      fill: #FFF;
+     
+      
     }
 .logo {
   color: #2196F3;

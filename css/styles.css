@@ -797,14 +797,32 @@ letter-spacing: 0.48px;
 } 
 .project-overlay {
   position: absolute;
+   left: 0;
+  top: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--accent-color);
+  background-color: #2195f3a2;
   transform: translateY(100%);
   transition: transform  250ms ease-in-out ;
+
 }
 .wrapper-project-image:hover .project-overlay {
 transform: translateY(0);
+}
+.wrapper-project-image {
+  position: relative;
+    overflow: hidden;
+}
+.overlay-text {
+  color: #FFF;
+  
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 155.556% */
+    letter-spacing: 0.54px;
 }
 .market-title {
   color: #212121;

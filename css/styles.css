@@ -794,8 +794,13 @@ letter-spacing: 0.48px;
 .market-list-item {
   position: relative;
   overflow: hidden;
+  border-color: #EEE;
 } 
 .project-overlay {
+  padding-left: 24px;
+  padding-top: 63px;
+  padding-bottom: 63px;
+  padding-right: 24px;
   position: absolute;
    left: 0;
   top: 0;
@@ -804,6 +809,7 @@ letter-spacing: 0.48px;
   background-color: #2195f3a2;
   transform: translateY(100%);
   transition: transform  250ms ease-in-out ;
+  cursor: pointer;
 
 }
 .wrapper-project-image:hover .project-overlay {
@@ -823,6 +829,10 @@ transform: translateY(0);
     line-height: 28px;
     /* 155.556% */
     letter-spacing: 0.54px;
+}
+.project__wrapper-info {
+  padding-left: 24px;
+  padding-right: 24px;
 }
 .market-title {
   color: #212121;

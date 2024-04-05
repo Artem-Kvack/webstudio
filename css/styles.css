@@ -88,7 +88,10 @@ img {
   margin-bottom: 32px;
 }
 
-
+.header-logo-icon {
+  fill: var(--add-color);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .contact-link {
   color: #212121;
@@ -188,8 +191,11 @@ text-transform: uppercase;
  
 font-family: Roboto;
 font-size: 16px;
-
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 letter-spacing: 0.96px;
+}
+.hero-btn:hover, .hero-btn:focus {
+      background-color: #1581d9;
 }
  .backdrop {
    position: fixed;
@@ -278,7 +284,7 @@ letter-spacing: 0.96px;
    width: 200px;
    height: 50px;
    color: #FFF;
-
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    text-align: center;
    font-family: Roboto;
    font-size: 16px;
@@ -288,7 +294,9 @@ letter-spacing: 0.96px;
    /* 187.5% */
    letter-spacing: 0.96px;
  }
-
+ .modal-button:hover, .modal-button:focus {
+  background-color: #1581d9;
+ }
  .modal-name {
    color: #757575;
 
@@ -323,9 +331,14 @@ letter-spacing: 0.96px;
  }
 .name-modal {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
+    position: relative;
 }
 
-
+.modal-input:hover+.modal-name-svg,
+.modal-input:focus+.modal-name-svg {
+  fill: var(--accent-color);
+}
  .name-modal:hover {
    border-color: #2196F3;
  }
@@ -334,7 +347,7 @@ letter-spacing: 0.96px;
    position: absolute;
         bottom:  11px;
         left: 12px;
-      
+          transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
  }
 
@@ -514,16 +527,13 @@ font-size: 16px;
 
 letter-spacing: 0.48px;
 }
-.worker-box-info {
-  width: 270px;
-  
-}
+
 .worker-soc-icon {
   fill: #757575;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .worker-soc-link {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .worker-soc-link:hover,
 .worker-soc-link:focus {
@@ -609,6 +619,7 @@ text-align: center;
 
 .icon-client-logo {
   fill: #757575;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-logo-link:hover .icon-client-logo, .clients-logo-link:focus .icon-client-logo {
  fill: #2196F3;
@@ -763,10 +774,12 @@ letter-spacing: 0.78px;
 
 
 
-.list-btn {
+.filter-btn {
   color: #212121;
-
+padding: 6px 22px;
   background: #F5F4FA;
+  border-radius: 4px;
+   border: none;
 text-align: center;
 font-family: Roboto;
 font-size: 16px;
@@ -774,6 +787,14 @@ font-style: normal;
 font-weight: 500;
 line-height: 26px; /* 162.5% */
 letter-spacing: 0.48px;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+cursor: pointer;
+
+}
+.filter-btn:hover, .filter-btn:focus {
+  color: var(--add-white);
+  background-color: var(--accent-color);
+
 }
 .market {
   padding-top: 50px;
@@ -807,10 +828,12 @@ letter-spacing: 0.48px;
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #2195f3a2;
+  background-color: rgba(33, 150, 243, 0.90);
   transform: translateY(100%);
   transition: transform  250ms ease-in-out ;
   cursor: pointer;
+  flex-basis: calc((100% - 60px)/3)
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .wrapper-project-image:hover .project-overlay {
@@ -819,7 +842,7 @@ transform: translateY(0);
 .wrapper-project-image {
   position: relative;
     overflow: hidden;
-      transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 }
 .overlay-text {
   color: #FFF;
